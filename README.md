@@ -13,7 +13,7 @@ This project requires the following steps to set up and run:
     - `locality` (datatype: `text`, not null)
     - `images` (datatype: `text[]`, not null)
 
-- Configure the database connection with the following parameters:
+- Configure the database connection with the following parameters in pipelines.py:
 
   ```plaintext
   hostname = 'localhost'
